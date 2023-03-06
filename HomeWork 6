@@ -8,8 +8,6 @@ d = int(input('Введите разность: '))
 n = int(input('Введите кол-во элементов: '))
 new_array = [*range(a1, a1 + d * n, d)]
 print(new_array)
-for i in range(len(new_array)):
-    print(new_array[i])
 
 
 # Задача 32: Определить индексы элементов массива (списка),
