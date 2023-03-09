@@ -13,20 +13,17 @@
 list1 = input()
 Newlis = list1.replace('-', '')
 Newlis2 = Newlis.split(' ')
-print(Newlis)
-print(Newlis2)
-
 Min = 0
 Max = 0
 vowels = 'а'
 for ch in Newlis2:
-    for i in Newlis2[ch]:
+    for i in ch:
         if i in vowels:
             Min += 1
     if Min > Max:
         Max = Min
         Min = 0
-    if Min == Max:
-        print("Парам пам-пам")
-    else:
-        print("Пам парам")
+if Min == Max:
+    print("Парам пам-пам")
+else:
+    print("Пам парам")
