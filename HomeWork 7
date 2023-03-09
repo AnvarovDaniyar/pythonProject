@@ -25,8 +25,6 @@ for ch in Newlis2:
             if Min > Max:
                 Max = Min
     count = 0
-print(Min)
-print(Max)
 if Min == Max:
     print("Парам пам-пам")
 else:
